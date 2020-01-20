@@ -1,0 +1,20 @@
+#picture-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+#picture-box picture{
+    position: relative;
+    height: 15%;
+    width: 15%;
+}
+.title{
+    font-family: "Manjari Bold";
+    font-size: 18px;
+}
+#title-box{
+    display: flex;
+    flex-flow: column wrap;
+    margin:30px;
+}
